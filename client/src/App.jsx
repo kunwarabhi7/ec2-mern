@@ -1,8 +1,9 @@
-import Notes from "../components/Note";
+import Notes from "./components/Notes";
 
 function App() {
   return (
     <div>
+      <h1>Notes App</h1>
       <Notes />
     </div>
   );

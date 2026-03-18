@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api } from "../api/api";
+import { api } from "../api";
 
 export default function Notes() {
   const [notes, setNotes] = useState([]);
@@ -28,8 +28,8 @@ export default function Notes() {
   }, []);
 
   return (
-    <div className="m-4">
-      <h2 className="mb-5">Notes app</h2>
+    <div>
+      <h2>Notes</h2>
 
       <input
         placeholder="Title"
